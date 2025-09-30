@@ -5,4 +5,4 @@ import streamlit as st
 
 df = pd.read_csv('data/train.csv')
 
-df.head()
+st.table(df.head())
